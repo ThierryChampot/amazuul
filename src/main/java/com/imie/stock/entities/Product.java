@@ -1,7 +1,5 @@
 package com.imie.stock.entities;
 
-import static org.junit.Assume.assumeTrue;
-
 import java.io.Serializable;
 import javax.persistence.Basic;
 import javax.persistence.Column;
