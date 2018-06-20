@@ -23,6 +23,7 @@ public class Product implements Serializable {
     private static final long serialVersionUID = 1L;
     @Id
     @Basic(optional = false)
+    private Long id;
     @Column(name = "label")
     private String label;
     @Basic(optional = true)
@@ -31,12 +32,9 @@ public class Product implements Serializable {
     @Basic(optional = false)
     @Column(name = "price")
     private Number price;
-    @Basic
-    @Column
+    @Basic(optional = false)
+    @Column(name = "quantity")
     private int quantity;
-    // @JoinColumn(name = "typeProfil", referencedColumnName = "idProfil")
-    // @ManyToOne(optional = false)
-    // private Profil typeProfil;
     
     public Product() {
     }
