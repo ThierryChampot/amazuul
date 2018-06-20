@@ -15,7 +15,7 @@ import com.imie.stock.daos.ProductDao;
 @RestController
 @RequestMapping(StockCtrl.STRING)
 public class StockCtrl {
-	static final String STRING = "/";
+	static final String STRING = "/products";
 	private static final String LIST = "/list";
     private static final String NEW = "/new";
     private static final String FIND_BY_ID = "/:id";
